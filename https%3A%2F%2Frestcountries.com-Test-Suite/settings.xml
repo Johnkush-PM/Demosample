@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="eb45eeda-d7c5-4b75-ae9a-d862dd020fb1" name="https://restcountries.com Test Suite" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="eb45eeda-d7c5-4b75-ae9a-d862dd020fb1fileName">https%3A%2F%2Frestcountries.com-Test-Suite</con:setting>
+  </con:settings>
+  <con:runType>SEQUENTIAL</con:runType>
+  <con:properties/>
+  <con:reportParameters/>
+  <con:environmentSpec>
+    <con:entry environmentId="b3525888-df7d-4a6d-94c3-f4644c1f1efc">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+    <con:entry environmentId="00fec0b8-ce69-4349-891a-268efa8ed020">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+    <con:entry environmentId="b97ee362-0c44-43f7-ab37-2539f6d56415">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+  </con:environmentSpec>
+</con:testSuite>

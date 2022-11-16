@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="Name" path="/v3.1/name/{Name}" id="397ee6b9-f15b-4195-bae7-c67b15fa5749" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="397ee6b9-f15b-4195-bae7-c67b15fa5749fileName">Name</con:setting>
+  </con:settings>
+  <con:parameters>
+    <con:parameter>
+      <con:name>Name</con:name>
+      <con:value>India</con:value>
+      <con:style>TEMPLATE</con:style>
+      <con:default>India</con:default>
+    </con:parameter>
+  </con:parameters>
+  <con:method name="Name" id="a88a40fe-1213-46b6-94ff-945c2fade9a4" method="GET">
+    <con:settings/>
+    <con:parameters>
+      <con:parameter required="true">
+        <con:name>Name</con:name>
+        <con:value/>
+        <con:style>TEMPLATE</con:style>
+        <con:default/>
+      </con:parameter>
+    </con:parameters>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element>Response</con:element>
+    </con:representation>
+    <con:request name="Request 1" id="7fa210c0-18c8-4b8d-bfd8-13caaf6fd0c2" mediaType="application/json">
+      <con:settings>
+        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+      </con:settings>
+      <con:endpoint>https://restcountries.com</con:endpoint>
+      <con:request/>
+      <con:originalUri>https://restcountries.com/v3.1/name/India</con:originalUri>
+      <con:credentials>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters>
+        <con:entry key="Name" value="India"/>
+      </con:parameters>
+      <con:parameterOrder>
+        <con:entry>Name</con:entry>
+      </con:parameterOrder>
+      <con:environmentSpec>
+        <con:entry environmentId="b3525888-df7d-4a6d-94c3-f4644c1f1efc">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="00fec0b8-ce69-4349-891a-268efa8ed020">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="b97ee362-0c44-43f7-ab37-2539f6d56415">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+      </con:environmentSpec>
+    </con:request>
+    <con:environmentSpec>
+      <con:entry environmentId="b3525888-df7d-4a6d-94c3-f4644c1f1efc">
+        <con:authProfile>Inherit From Parent</con:authProfile>
+      </con:entry>
+      <con:entry environmentId="00fec0b8-ce69-4349-891a-268efa8ed020">
+        <con:authProfile>Inherit From Parent</con:authProfile>
+      </con:entry>
+      <con:entry environmentId="b97ee362-0c44-43f7-ab37-2539f6d56415">
+        <con:authProfile>Inherit From Parent</con:authProfile>
+      </con:entry>
+    </con:environmentSpec>
+  </con:method>
+  <con:environmentSpec>
+    <con:entry environmentId="b3525888-df7d-4a6d-94c3-f4644c1f1efc">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+    <con:entry environmentId="00fec0b8-ce69-4349-891a-268efa8ed020">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+    <con:entry environmentId="b97ee362-0c44-43f7-ab37-2539f6d56415">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+  </con:environmentSpec>
+</con:resource>
